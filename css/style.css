@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: flex;
+}
+body {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(102, 102, 102, 0.85);
+}
+.container {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.header {
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+.container {
+}
+.logo-link {
+  display: flex;
+}
+.list-item:not(:last-child) {
+  margin-right: 22px;
+}
+
+.sitenav {
+}
+.sitenav-list {
+  display: flex;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-info {
+  width: 545px;
+}
+.hero-title {
+  font-size: 48px;
+  line-height: 58px;
+  letter-spacing: 0.25px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.research {
+}
+.research-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container {
+}
+.research-info {
+  width: 520px;
+}
+.research-title {
+  font-size: 35px;
+  margin-bottom: 15px;
+  font-family: "Montserrat", sans-serif;
+ 
+ align-items: center;
+  justify-content: space-between;
+}
+.container {
+}
+.learn-info {
+    width: 600px;
+}
+.learn-title { 
+  font-size: 35px;
+  margin-bottom: 15px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 44px;
+  letter-spacing: 0.25px;  
+}
+.loren-description {
+    margin-bottom: 28px;
+}
